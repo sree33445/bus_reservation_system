@@ -1,0 +1,178 @@
+.billing-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f6f8fb 0%, #e9eef5 100%);
+  padding: 2rem 1rem;
+}
+
+.billing-wrapper {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.billing-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header-title {
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.header-subtitle {
+  color: #666;
+  font-size: 1rem;
+}
+
+.billing-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+.passenger-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(to right, #f8fafc, #f1f5f9);
+  border-radius: 12px;
+}
+
+.passenger-name {
+  font-size: 1.5rem;
+  color: #1a1a1a;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.detail-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f8fafc;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #e8eef7;
+  border-radius: 10px;
+}
+
+.icon {
+  color: #4b76e5;
+}
+
+.detail-content {
+  flex: 1;
+}
+
+.label {
+  color: #666;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.value {
+  color: #1a1a1a;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.pricing-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #4b76e5;
+  border-radius: 12px;
+  color: white;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-label {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.price-value {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.button-section {
+  padding: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.payment-button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background-color: #4b76e5;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.payment-button:hover {
+  background-color: #3d62c6;
+  transform: translateY(-2px);
+}
+
+.no-booking {
+  text-align: center;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  color: #666;
+  font-size: 1.125rem;
+}
+
+.booking-reference {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 640px) {
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .main-content {
+    padding: 1.5rem;
+  }
+  
+  .header-title {
+    font-size: 1.75rem;
+  }
+}

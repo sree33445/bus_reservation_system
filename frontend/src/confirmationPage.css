@@ -1,0 +1,97 @@
+.container {
+    min-height: 100vh;
+    background-color: #f9fafb;
+    padding: 3rem 1rem;
+  }
+  
+  .card {
+    max-width: 42rem;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .icon {
+    height: 4rem;
+    width: 4rem;
+    color: #22c55e;
+  }
+  
+  .title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    color: #4b5563;
+  }
+  
+  .details-section {
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1.5rem 0;
+    margin: 1.5rem 0;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .label {
+    color: #4b5563;
+  }
+  
+  .value {
+    color: #111827;
+    font-weight: 500;
+  }
+  
+  .amount {
+    color: #059669;
+    font-weight: 600;
+  }
+  
+  .email-alert {
+    background-color: #eff6ff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .email-text {
+    color: #1e40af;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  .reference {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .reference-text {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
